@@ -1,0 +1,9 @@
+package fa.training.services.Interface;
+
+import fa.training.entities.Publication;
+
+import java.util.List;
+
+public interface DisplayTop10MagazinesByVolumeInterface {
+    void execute(List<Publication> publications);
+}
