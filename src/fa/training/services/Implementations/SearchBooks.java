@@ -1,9 +1,9 @@
-package fa.training.services.Implematations;
+package fa.training.services.Implementations;
 
 import fa.training.Constants;
 import fa.training.entities.Book;
 import fa.training.entities.Publication;
-import fa.training.services.Interface.SearchBooksInterface;
+import fa.training.services.Interfaces.SearchBooksInterface;
 import fa.training.utils.Validations;
 
 import java.util.ArrayList;

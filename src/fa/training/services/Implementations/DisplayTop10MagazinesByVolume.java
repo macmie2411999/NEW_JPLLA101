@@ -1,9 +1,9 @@
-package fa.training.services.Implematations;
+package fa.training.services.Implementations;
 
 import fa.training.Constants;
 import fa.training.entities.Magazine;
 import fa.training.entities.Publication;
-import fa.training.services.Interface.DisplayTop10MagazinesByVolumeInterface;
+import fa.training.services.Interfaces.DisplayTop10MagazinesByVolumeInterface;
 
 import java.util.ArrayList;
 import java.util.List;

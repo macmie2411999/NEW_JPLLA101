@@ -1,4 +1,4 @@
-package fa.training.services.Interface;
+package fa.training.services.Interfaces;
 
 import fa.training.entities.Publication;
 

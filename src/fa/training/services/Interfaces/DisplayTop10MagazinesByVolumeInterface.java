@@ -1,9 +1,9 @@
-package fa.training.services.Interface;
+package fa.training.services.Interfaces;
 
 import fa.training.entities.Publication;
 
 import java.util.List;
 
-public interface AddAuthorToBookInterface {
+public interface DisplayTop10MagazinesByVolumeInterface {
     void execute(List<Publication> publications);
 }

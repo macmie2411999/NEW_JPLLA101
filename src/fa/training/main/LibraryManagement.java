@@ -4,8 +4,8 @@ import fa.training.Constants;
 import fa.training.entities.Book;
 import fa.training.entities.Magazine;
 import fa.training.entities.Publication;
-import fa.training.services.Implematations.*;
-import fa.training.services.Interface.*;
+import fa.training.services.Implementations.*;
+import fa.training.services.Interfaces.*;
 import fa.training.utils.Validations;
 
 import java.util.*;
@@ -20,6 +20,9 @@ public class LibraryManagement {
         DisplayPublicationsByYearAndPublisherInterface displayPublicationsByYearAndPublisher = (DisplayPublicationsByYearAndPublisherInterface) new DisplayPublicationsByYearAndPublisher();
         DisplayTop10MagazinesByVolumeInterface displayTop10MagazinesByVolume = (DisplayTop10MagazinesByVolumeInterface) new DisplayTop10MagazinesByVolume();
         SearchBooksInterface searchBooks = (SearchBooksInterface) new SearchBooks();
+
+//        TestInterface testInterface = new TestClass();
+//        testInterface.testMethod(10);
 
         boolean running = true;
 
