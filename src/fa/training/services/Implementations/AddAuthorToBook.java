@@ -3,6 +3,7 @@ package fa.training.services.Implementations;
 import fa.training.Constants;
 import fa.training.entities.Book;
 import fa.training.entities.Publication;
+import fa.training.services.Interfaces.AddAuthorToBookInterface;
 import fa.training.services.Interfaces.AddBookInterface;
 import fa.training.utils.Validations;
 
@@ -10,7 +11,7 @@ import java.util.List;
 
 import static fa.training.utils.Validations.scanner;
 
-public class AddAuthorToBook implements AddBookInterface {
+public class AddAuthorToBook implements AddAuthorToBookInterface {
     @Override
     public void execute(List<Publication> publications) {
         String isbn = Validations.inputLine(Constants.ENTER_ISBN);

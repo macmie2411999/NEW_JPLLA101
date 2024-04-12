@@ -12,17 +12,14 @@ import java.util.*;
 
 public class LibraryManagement {
     private static List<Publication> publications = new ArrayList<>();
+    private static AddAuthorToBookInterface addAuthorToBook = (AddAuthorToBookInterface) new AddAuthorToBook();
+    private static AddBookInterface addBook = (AddBookInterface) new AddBook();
+    private static AddMagazineInterface addMagazine = (AddMagazineInterface) new AddMagazine();
+    private static DisplayPublicationsByYearAndPublisherInterface displayPublicationsByYearAndPublisher = (DisplayPublicationsByYearAndPublisherInterface) new DisplayPublicationsByYearAndPublisher();
+    private static DisplayTop10MagazinesByVolumeInterface displayTop10MagazinesByVolume = (DisplayTop10MagazinesByVolumeInterface) new DisplayTop10MagazinesByVolume();
+    private static SearchBooksInterface searchBooks = (SearchBooksInterface) new SearchBooks();
 
     public static void main(String[] args) {
-        AddAuthorToBookInterface addAuthorToBook = (AddAuthorToBookInterface) new AddAuthorToBook();
-        AddBookInterface addBook = (AddBookInterface) new AddBook();
-        AddMagazineInterface addMagazine = (AddMagazineInterface) new AddMagazine();
-        DisplayPublicationsByYearAndPublisherInterface displayPublicationsByYearAndPublisher = (DisplayPublicationsByYearAndPublisherInterface) new DisplayPublicationsByYearAndPublisher();
-        DisplayTop10MagazinesByVolumeInterface displayTop10MagazinesByVolume = (DisplayTop10MagazinesByVolumeInterface) new DisplayTop10MagazinesByVolume();
-        SearchBooksInterface searchBooks = (SearchBooksInterface) new SearchBooks();
-
-//        TestInterface testInterface = new TestClass();
-//        testInterface.testMethod(10);
 
         boolean running = true;
 

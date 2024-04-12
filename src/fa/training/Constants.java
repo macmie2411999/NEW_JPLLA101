@@ -18,7 +18,7 @@ public class Constants {
     // Add Book
     public static final String PROMPT_PUBLICATION_YEAR = "Enter publication year: ";
     public static final String PROMPT_PUBLISHER = "Enter publisher: ";
-    public static final String PROMPT_PUBLICATION_DATE = "Enter publication date (yyyy-MM-dd): ";
+    public static final String PROMPT_PUBLICATION_DATE = "Enter publication date (yyyy/MM/dd): ";
     public static final String PROMPT_ISBN = "Enter ISBN: ";
     public static final String PROMPT_NUM_AUTHORS = "Enter number of authors: ";
     public static final String PROMPT_PUBLICATION_PLACE = "Enter publication place: ";
